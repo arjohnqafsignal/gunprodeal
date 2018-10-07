@@ -1,0 +1,134 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link href="<?php echo base_url(); ?>assets/images/header/gunpro-favicon.png" rel="icon" type="image/x-icon">
+    <meta property="og:image" content="<?php echo base_url(); ?>assets/images/header/gunpro-header.png" /> 
+    <title> Gunsalefinder - <?php echo (isset($pagetitle)) ? $pagetitle :'Home'; ?> </title>
+    <!-- Facebook Meta -->
+    <meta property="og:url" content="<?=$actual_link?>" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?php echo (isset($title)) ? $title :'Home'; ?>" />
+    <meta property="og:description" content="<?=isset($descriptions[0]['descriptions']) ?$descriptions[0]['descriptions'] : '' ?>" />
+    <meta property="og:image" content="<?=isset($image_url) ?$image_url :''?>" />
+    <meta property="og:image:width" content="119" />
+    <meta property="og:image:height" content="73" />
+    <meta property="fb:app_id" content="<?=FB_ID?>" />
+
+    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
+
+    <!-- =-=-=-=-=-=-= Template CSS ssStyle =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+    <!-- =-=-=-=-=-=-= Font Awesome =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/font-awesome.css" type="text/css">
+    <!-- =-=-=-=-=-=-= Flat Icon =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/css/flaticon.css" rel="stylesheet">
+    <!-- =-=-=-=-=-=-= Et Line Fonts =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/et-line-fonts.css" type="text/css">
+    <!-- =-=-=-=-=-=-= Menu Drop Down =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/forest-menu.css" type="text/css">
+    <!-- =-=-=-=-=-=-= Animation =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/animate.min.css" type="text/css">
+    <!-- =-=-=-=-=-=-= Select Options =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/css/select2.min.css" rel="stylesheet" >
+    <!-- =-=-=-=-=-=-= noUiSlider =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/css/nouislider.min.css" rel="stylesheet">
+    <!-- =-=-=-=-=-=-= Listing Slider =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/css/slider.css" rel="stylesheet">
+    <!-- =-=-=-=-=-=-= Owl carousel =-=-=-=-=-=-= -->
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/owl.theme.css">
+    <!-- =-=-=-=-=-=-= Check boxes =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/skins/minimal/minimal.css" rel="stylesheet">
+    <!-- =-=-=-=-=-=-= Responsive Media =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/css/responsive-media.css" rel="stylesheet">
+    <!-- =-=-=-=-=-=-= Template Color =-=-=-=-=-=-= -->
+    <link rel="stylesheet" id="color" href="<?php echo base_url(); ?>assets/css/colors/sea-green.css">
+    <!-- =-=-=-=-=-=-= For Style Switcher =-=-=-=-=-=-= -->
+    <link rel="stylesheet" id="theme-color" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css" />
+    <!-- =-=-=-=-=-=-= Check boxes =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>assets/skins/minimal/minimal.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/dropzone.css">
+    <link href="<?php echo base_url(); ?>assets/css/jquery.tagsinput.min.css" rel="stylesheet">
+
+    <script src="<?php echo base_url(); ?>assets/js/modernizr.js"></script>
+
+    <!-- =-=-=-=-=-=-= Easy Autocomplete =-=-=-=-=-=-= -->
+    <link href="<?php echo base_url(); ?>node_modules/easy-autocomplete/dist/easy-autocomplete.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/override.css">
+    <!--<link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">-->
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+	<section class="comming-soon-grid">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 comming-soon">
+                  <div class="theme-logo">
+                     <a href="index.html"><img src="images/logo.png" alt=""></a>
+                  </div>
+                  <div class="count-down">
+                     <div id="clock"></div>
+                  </div>
+                  <div class="subscribe">
+                     <p>Our website is under construction.
+                        <br> We'll be here soon with our new awesome site, subscribe to be notified.
+                     </p>
+                     <form action="#" method="post">
+                        <input type="email" name="email" id="mail" placeholder="Valid E-mail Address" required>
+                        <button type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Notify Me</button>
+                     </form>
+                  </div>
+                  <div class="social-area-share">
+                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+<!-- =-=-=-=-=-=-= JQUERY =-=-=-=-=-=-= -->
+<script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
+<!-- Bootstrap Core Css  -->
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+<!-- Jquery Easing -->
+<script src="<?php echo base_url(); ?>assets/js/easing.js"></script>
+<!-- Menu Hover  -->
+<script src="<?php echo base_url(); ?>assets/js/forest-megamenu.js"></script>
+<!-- Jquery Appear Plugin -->
+<script src="<?php echo base_url(); ?>assets/js/jquery.appear.min.js"></script>
+<!-- Numbers Animation   -->
+<script src="<?php echo base_url(); ?>assets/js/jquery.countTo.js"></script>
+<!-- Jquery Smooth Scroll  -->
+<script src="<?php echo base_url(); ?>assets/js/jquery.smoothscroll.js"></script>
+<!-- Jquery Select Options  -->
+<script src="<?php echo base_url(); ?>assets/js/select2.min.js"></script>
+<!-- noUiSlider -->
+<script src="<?php echo base_url(); ?>assets/js/nouislider.all.min.js"></script>
+<!-- Carousel Slider  -->
+<script src="<?php echo base_url(); ?>assets/js/carousel.min.js?v=3"></script>
+<script src="<?php echo base_url(); ?>assets/js/slide.js"></script>
+<!-- Image Loaded  -->
+<script src="<?php echo base_url(); ?>assets/js/imagesloaded.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/isotope.min.js"></script>
+<!-- CheckBoxes  -->
+<script src="<?php echo base_url(); ?>assets/js/icheck.min.js"></script>
+<!-- Jquery Migration  -->
+<script src="<?php echo base_url(); ?>assets/js/jquery-migrate.min.js"></script>
+<!-- Sticky Bar  -->
+<script src="<?php echo base_url(); ?>assets/js/theia-sticky-sidebar.js"></script>
+<!-- Style Switcher -->
+<script src="<?php echo base_url(); ?>assets/js/color-switcher.js"></script>
+<!-- Template Core JS -->
+<script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
+<!-- Easy Autocomplete JS -->
+<script src="<?php echo base_url(); ?>node_modules/easy-autocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+<!--<script src="<?php echo base_url(); ?>assets/js/ajaxpost.js"></script>-->
+<!-- Lodash JS -->
+<script src="<?php echo base_url(); ?>node_modules/lodash/lodash.js"></script>

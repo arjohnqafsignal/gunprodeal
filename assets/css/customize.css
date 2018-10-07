@@ -1,0 +1,25 @@
+.content-section {
+    margin-top: -50px;
+}
+
+.content-container ol li,
+.content-container ul li {
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.content-margin {
+    margin-left: 35px;
+}
+
+.content-margin li{
+    list-style: circle;
+}
+.content-paragraph {
+    margin-left: 22px;
+}
+
+.content-footer {
+    margin-top: 10px;
+    margin-left: 22px;
+}

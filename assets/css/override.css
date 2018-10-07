@@ -1,0 +1,279 @@
+.for-visuality {
+    border: 1px solid green;
+}
+.for-visuality-2 {
+    border: 1px solid blue;
+}
+.easy-autocomplete-container ul {
+    margin-top: 50px;
+}
+.easy-autocomplete input {
+    padding: 15px 12px;
+    border-radius: 0;
+}
+.mega-menu {
+    z-index: 1;
+}
+.desktopTopFixed {
+    z-index: 111;
+}
+
+.features-tag {
+    z-index: 1;
+    background-color: rgba(245, 137, 54, 0.8);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+}
+
+.price-search  {
+    font-size: 19px !important;
+    float: right !important;
+}
+.labelPrice {
+    font-size: 12px !important;
+    /*float: right !important;*/
+}
+.black-white-text {
+    color: #fff;
+    background: #030303;
+}
+
+.black-text {
+    color: #232323;
+    font-weight: bold;
+}
+
+.table-display thead tr th , 
+.table-display tbody tr td {
+    padding: 20px;
+
+}
+
+/*.banner-side-image {
+    height: 600px;
+    background: url('../banners/sidebar.jpeg');
+    background-repeat: no-repeat center;
+    background-size: 100% 100%;
+}*/
+
+.add-to-compare-col-label {
+    width: 20%;
+}
+.add-to-compare-col {
+    width: 26.6666666667%;
+}
+.add-to-compare-btn {
+    padding: 15px 35px;
+}
+.add-to-compare-container tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.add-to-compare-container td {
+    border-right: thin solid #bababa;
+}
+.add-to-compare-container td:first-child {
+    border-left: thin solid #bababa;
+}
+.add-to-compare-container tr:nth-child(2) {
+    border-top: thin solid #bababa;
+}
+.add-to-compare-container tr:last-child {
+    border-bottom: thin solid #bababa;
+}
+.comparison-title {
+    height: 50px;
+    overflow: hidden;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.comparison-img {
+    height: 234px;
+    width: 313px;
+    border: thin solid #bababa;
+}
+.comparison-close {
+    font-size: 12px;
+    color: red;
+    opacity: 1;
+    padding: 0 10px;
+}
+.compareUpc {
+    color: #337ab7 !important;
+    font-weight: bold !important;
+    /* padding: 0px;  */
+    /* padding: 0px;  */
+    /* letter-spacing: 0px;  */
+}
+.feature-img-size {
+    height: 234px;
+    width: 313px;
+}
+.float-left {
+    float: left;
+}
+.margin-top-bottom-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.full-width {
+    width: 100%;
+}
+.no-padding {
+    padding: 0;
+}
+.padding-left-right-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-section {
+    margin-top: -50px;
+}
+
+.content-container ol li,
+.content-container ul li {
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.content-margin {
+    margin-left: 35px;
+}
+
+.content-margin li {
+    list-style: circle;
+}
+.content-paragraph {
+    margin-left: 22px;
+}
+
+.content-footer {
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+.content-hide {
+    visibility: hidden;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.content-promotion h3 {
+    font-size: 14px;
+
+}
+
+.footer-logo {
+    margin-top: -40px;
+}
+
+.content-dealer-login {
+    color: #E61E21 !important;
+    margin-left: 5px;
+}
+
+.btn-purchase-now {
+    width: 200px !important;
+    margin-bottom: 10px;
+}
+
+.pull-summary {
+    text-align: left !important;
+}
+
+.img-about-us {
+    max-width: 75% !important;
+}
+
+.list-horizontal li {
+    display: inline;
+    padding: 15px !important;
+}
+
+.long-heading {
+    width: 80% !important;
+}
+
+.share-icons li{
+    display: inline;
+    padding: 25px !important;
+}
+.category-checkbox {
+    height: 15px;
+}
+
+.rating-title-container {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-title {
+    font-size: 30pt;
+    font-weight: bold;
+}
+.rating-title-sub {
+    font-size: 30pt;
+}
+
+.api-content-header h3 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.api-content-header h4 {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.text-space {
+    margin-left: 20px;
+}
+
+.api-content-code {
+    margin-left: 30px;
+}
+
+.bullet-content {
+    margin-left: 50px;
+    list-style-type: square;
+}
+
+.cirle-content {
+    margin-left: 45px;
+    list-style-type: circle;
+}
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+.load-more {
+    max-width: 200px;
+    text-align: center;
+}
+.category-grid-box-1-min-height {
+    min-height: 569px;
+    position: relative;
+}
+.category-grid-box-1-min-height .ad-info-1 {
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .banner-side-container {
+        display: none;
+    }
+}
